@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "E-Commerce Website Using Angular and Node Express",
+  "main": "server_ankit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Bhatia",
+  "license": "ISC"
+}
