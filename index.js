@@ -348,7 +348,9 @@ available=Boolean(available);
 res.send(JSON.stringify(req.body));
 })
 
-
+app.get('/',(req,res)=>{
+    res.send("Welcome to the Server of Mobikart E-Commerce Website")
+})
 
 var server=app.listen(3000,function(){
 console.log("Server has Started at port 3000")});
